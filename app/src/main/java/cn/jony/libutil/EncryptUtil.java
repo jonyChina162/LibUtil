@@ -14,7 +14,8 @@ import java.security.SecureRandom;
 import java.util.Iterator;
 import java.util.Map;
 
-import static cn.pwrd.util.Constants.UTF_8;
+import static cn.jony.libutil.Constants.UTF_8;
+
 
 @SuppressWarnings("unused")
 public class EncryptUtil {

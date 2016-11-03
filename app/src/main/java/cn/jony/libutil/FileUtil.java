@@ -3,7 +3,7 @@ package cn.jony.libutil;
 import android.os.Environment;
 import android.support.annotation.IntDef;
 import android.text.TextUtils;
-import cn.pwrd.util.io.IOUtils;
+import cn.jony.libutil.io.IOUtils;
 
 import java.io.*;
 import java.lang.annotation.Retention;

@@ -91,7 +91,7 @@ public class NetStatusUtil {
                 String address = cursor.getString(cursor.getColumnIndex("proxy"));
                 String port = cursor.getString(cursor.getColumnIndex("port"));
                 if (address != null && address.trim().length() > 0) {
-                    return new InetSocketAddress(address, Integer.getInteger(port, 80).intValue());
+                    return new InetSocketAddress(address, Integer.getInteger(port, 80));
                 }
             }
 

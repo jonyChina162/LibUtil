@@ -5,11 +5,12 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.RawRes;
-import cn.pwrd.util.io.IOUtils;
+import cn.jony.libutil.io.IOUtils;
 
 import java.io.InputStream;
 
-import static cn.pwrd.util.Constants.UTF_8;
+import static cn.jony.libutil.Constants.UTF_8;
+
 
 @SuppressWarnings("unused")
 public class ResourceUtil {

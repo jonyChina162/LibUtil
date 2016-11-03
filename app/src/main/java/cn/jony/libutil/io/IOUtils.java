@@ -27,7 +27,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static cn.pwrd.util.Constants.UTF_8;
+import static cn.jony.libutil.Constants.UTF_8;
+
 
 /**
  * General IO stream manipulation utilities.
@@ -60,7 +61,7 @@ import static cn.pwrd.util.Constants.UTF_8;
  * <p/>
  * Origin of code: Excalibur.
  * <p>
- * pwrd modify: add okio dependency for this class
+ * jony modify: add okio dependency for this class
  *
  * @author Peter Donald
  * @author Jeff Turner
@@ -70,7 +71,7 @@ import static cn.pwrd.util.Constants.UTF_8;
  * @author Ian Springer
  * @author Niall Pemberton
  * @author Sandy McArthur
- * @author zhouli
+ * @author jony
  * @version $Id: IOUtils.java 2016-11-03 $
  */
 @SuppressWarnings("unused")
@@ -473,7 +474,7 @@ public class IOUtils {
      */
     public static List<String> readLines(Reader input) throws IOException {
         BufferedReader reader = new BufferedReader(input);
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<>();
         String line = reader.readLine();
         while (line != null) {
             list.add(line);
